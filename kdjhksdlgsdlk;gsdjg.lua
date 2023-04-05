@@ -1,4 +1,4 @@
-local HWID = "D605D1E5-350C-4D24-9D4F-67B0AA1F3FE7"
+local HWID = nil
 local HWIDPlr = game:GetService("RbxAnalyticsService"):GetClientId()
 local key = _G.Key
 local check = "https://datadatahub.000webhostapp.com/check.php" .. key
