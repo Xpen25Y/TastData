@@ -7,7 +7,7 @@ local ScriptIsRunning = false
 --------------------------------------------------------------------------------------------------------
 function Whitelist1()
     if game:HttpGet(check) == "Whitelisted" then
-    HWID = nil
+    HWID = D605D1E5-350C-4D24-9D4F-67B0AA1F3FE7
         else
             game.Players.LocalPlayer:kick("Invaid Key")
     end
