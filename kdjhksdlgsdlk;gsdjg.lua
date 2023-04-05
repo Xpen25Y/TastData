@@ -1,4 +1,4 @@
-local HWID = nil
+local HWID = "D605D1E5-350C-4D24-9D4F-67B0AA1F3FE7"
 local HWIDPlr = game:GetService("RbxAnalyticsService"):GetClientId()
 local key = _G.Key
 local check = "https://datadatahub.000webhostapp.com/check.php" .. key
@@ -7,7 +7,7 @@ local ScriptIsRunning = false
 --------------------------------------------------------------------------------------------------------
 function Whitelist1()
     if game:HttpGet(check) == "Whitelisted" then
-    HWID = D605D1E5-350C-4D24-9D4F-67B0AA1F3FE7
+    HWID = "D605D1E5-350C-4D24-9D4F-67B0AA1F3FE7"
         else
             game.Players.LocalPlayer:kick("Invaid Key")
     end
