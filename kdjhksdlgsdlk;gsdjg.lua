@@ -1,7 +1,7 @@
 local HWID = nil
 local HWIDPlr = game:GetService("RbxAnalyticsService"):GetClientId()
 local key = _G.Key
-local check = "ลิ้งค์check.php" .. key
+local check = "https://datadatahub.000webhostapp.com/check.php" .. key
 local KeyAndHWID = false
 local ScriptIsRunning = false
 --------------------------------------------------------------------------------------------------------
